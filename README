@@ -1,0 +1,10 @@
+-Tools
+It was used JUnit to make unity tests and Maven to build the project
+
+-Design
+It was used Factory method (Query.java), Null object (QueryInvalid.java) and Dependency injection.
+
+-Run
+In the prompt type:
+--Build: mvn package
+--Run: java -jar target/merchants.guide.to.the.galaxy-0.0.1-SNAPSHOT.jar [InputTestFilePath]
