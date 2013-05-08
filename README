@@ -1,8 +1,25 @@
+This is a number and currency conversor based on Roman numerals.
+It should be able to receive an input file that describes how my numbers relates to roman and how my currency relates to other currency, and answer the questions in the input file.
+
+Given the input file
+
+blah is I
+blah mithril is 200 real
+how much is blah blah?
+how many real is blah blah mithril?
+
+You receive
+
+blah blah is 2
+blah blah mithril is 400 real
+
+
+-Details about development
 -Tools
 It was used JUnit to make unity tests and Maven to build the project
 
 -Design
-It was used Factory method (Query.java), Null object (QueryInvalid.java) and Dependency injection.
+It was used Factory method and Null object design patterns and Dependency injection.
 
 -Run
 In the prompt type:
